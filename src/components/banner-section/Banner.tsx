@@ -30,7 +30,7 @@ export const BannerSection = () => {
                     <PrimaryButton text="Créer un compte"></PrimaryButton>
                 </div>
             </div>
-            <img className="object-contain sm:w-1/2 hidden sm:block" src={africa} alt="" />
+            <img className="object-contain sm:w-1/2 hidden sm:block" src={africa} alt="Africa maps" />
         </section>
     )
 }
