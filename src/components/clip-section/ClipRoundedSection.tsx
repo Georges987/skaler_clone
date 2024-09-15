@@ -22,7 +22,7 @@ export const ClipRoundedSection = () => {
                     className='flex justify-center flex-col pt-64 items-center'
                 >
                     <div
-                        className='bg-clip-text text-[75px] text-white font-extrabold text-center'
+                        className='bg-clip-text text-[75px]  text-white font-extrabold text-center'
                     >
                         SKALER API <br /> DEVELOPPEUR
                     </div>
@@ -35,7 +35,7 @@ export const ClipRoundedSection = () => {
                         className="flex justify-center my-2"
                     >
                         <div
-                            className="text-white w-max rounded-full border px-4 font-bold py-2 text-base"
+                            className="text-white cursor-pointer w-max rounded-full border px-4 font-bold py-2 text-base"
                         >
                             Se connecter
                         </div>
@@ -158,7 +158,7 @@ export const ClipRoundedSection = () => {
                             par transaction
                         </div>
                         <div
-                            className='bg-white text-primary-text rounded-lg px-4 py-2 my-2'
+                            className='bg-white cursor-pointer text-primary-text rounded-lg px-4 py-2 my-2'
                         >
                             Commencez ici
                         </div>

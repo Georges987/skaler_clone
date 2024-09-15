@@ -7,7 +7,7 @@ export const Experience = () => {
         <section
             className='flex justify-center flex-col items-center bg-[#F8FAFC] py-20'
         >
-            <img src={logo} alt="Logo" />
+            <img className='cursor-pointer' src={logo} alt="Logo" />
             <div
                 className='text-4xl font-extrabold text-center my-16'
             >

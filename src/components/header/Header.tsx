@@ -18,7 +18,7 @@ export const Header = () => {
         <header
             className="flex shadow-xl px-20 justify-between py-6 items-center"
         >
-            <img height={40} width={100} src={logo} alt="Logo app" />
+            <img height={40} width={100} className='cursor-pointer' src={logo} alt="Logo app" />
             <Nav links={links}/>
         </header>
     )
