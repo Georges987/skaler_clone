@@ -5,10 +5,10 @@ import git from '../../assets/icons/links/github.png'
 export const Footer = () => {
     return (
         <footer
-            className='px-20'
+            className='md:px-20 px-4'
         >
             <div
-                className='border-t flex justify-between border-slate-300'
+                className='border-t flex md:justify-between md:flex-row flex-col border-slate-300'
             >
                 <div
                     className='my-auto text-slate-800'

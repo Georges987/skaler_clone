@@ -14,6 +14,9 @@ function App() {
   return (
     <>
       <Header/>
+      <div
+        className="h-20"
+      ></div>
       <BannerSection />
       <CardSection />
       <TransfertSection />

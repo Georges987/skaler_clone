@@ -35,11 +35,11 @@ export const TransfertSection = () => {
             className='py-10'
         >
             <div
-                className='py-20 px-20 flex items-center'
+                className='py-20 md:px-20 px-4 flex items-center'
             >
                 <img className='object-contain w-1/2 sm:block hidden' src={bank} alt="Bank to customers illustration" />
                 <div
-                    className='pl-20'
+                    className='md:pl-20 pl-4'
                 >
                     <div
                         className='my-8'
@@ -88,7 +88,7 @@ export const TransfertSection = () => {
                 </div>
             </div>
             <div
-                className='rounded-full flex justify-between py-2 px-20 mx-20 bg-[#F6F6F6]'
+                className='rounded-full md:flex grid grid-cols-4 justify-between py-2 px-20 mx-20 bg-[#F6F6F6]'
             >
                 {banks.map((ban) =>
                     <img width={45} src={ban} alt="" />

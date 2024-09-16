@@ -6,7 +6,7 @@ import africa from "../../assets/images/africa.png"
 export const BannerSection = () => {
     return (
         <section
-            className="flex max-h-[70vh] w-screen pl-20"
+            className="flex max-h-[70vh] w-screen md:pl-20 pl-4"
         >
             <div
                 className="flex flex-col justify-center sm:w-1/2 w-full"

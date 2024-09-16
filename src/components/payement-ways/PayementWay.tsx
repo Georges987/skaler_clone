@@ -48,14 +48,14 @@ export const PayementWay = () => {
                     className='flex justify-between'
                 >
                     {ways.major.map((way) =>
-                        <img width={75} src={way} alt="" />
+                        <img className='md:w-[75px] w-[40px]' src={way} alt="" />
                     )}
                 </div>
                 <div
-                    className='flex justify-between px-16 -translate-y-7'
+                    className='flex md:justify-between justify-center md:px-16 md:-translate-y-7'
                 >
                     {ways.minor.map((way) =>
-                        <img width={75} src={way} alt="" />
+                        <img className='md:w-[75px] w-[40px]' src={way} alt="" />
                     )}
                 </div>
             </div>

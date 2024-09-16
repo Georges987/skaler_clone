@@ -17,12 +17,12 @@ export const ClipRoundedSection = () => {
         <section
             className='pb-20'
         >
-            <div className='bg h-screen bg-cover bg-no-repeat'>
+            <div className='bg md:h-screen h-[500px] bg-cover bg-no-repeat'>
                 <div
-                    className='flex justify-center flex-col pt-64 items-center'
+                    className='flex justify-center flex-col md:pt-64 pt-48 items-center'
                 >
                     <div
-                        className='bg-clip-text text-[75px]  text-white font-extrabold text-center'
+                        className='bg-clip-text md:text-[75px]  text-white font-extrabold text-center'
                     >
                         SKALER API <br /> DEVELOPPEUR
                     </div>
@@ -46,10 +46,10 @@ export const ClipRoundedSection = () => {
             </div>
             
             <div
-                className='bg-primary-text px-20 py-20'
+                className='bg-primary-text md:px-20 md:py-20 px-4 py-4'
             >
                 <div
-                    className='text-white grid grid-cols-3 gap-4 w-full'
+                    className='text-white grid md:grid-cols-3 gap-4 w-full'
                 >
                     <div
                         className='space-y-4 flex flex-col justify-center'
@@ -81,10 +81,10 @@ export const ClipRoundedSection = () => {
 
                 </div>
                 <div
-                    className='flex w-full bg-white rounded-xl overflow-hidden h-[300px]'
+                    className='flex w-full my-12 md:my-0 bg-white rounded-xl overflow-hidden h-[300px]'
                 >
                     <div
-                        className='w-4/5 p-6 flex flex-col justify-between'
+                        className='w-4/5 hidden p-6 md:flex flex-col justify-between'
                     >
                         <div
                             className=''
@@ -145,7 +145,7 @@ export const ClipRoundedSection = () => {
                         </div>
                     </div>
                     <div
-                        className='w-1/5 text-white bg-gradient-to-b flex items-center flex-col justify-center from-primary-text to-white'
+                        className='md:w-1/5 w-full text-white bg-gradient-to-b flex items-center flex-col justify-center from-primary-text to-white'
                     >
                         <div
                             className='text-center text-4xl font-bold'

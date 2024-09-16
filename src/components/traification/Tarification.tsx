@@ -13,7 +13,7 @@ export const Tarification = () => {
 
     return (
         <section
-            className="py-20 px-20 bg-[#F8FAFC] mb-4"
+            className="md:py-20 md:px-20 py-4 px-4 bg-[#F8FAFC] mb-4"
         >
             <div
                 className="text-primary-text text-center font-bold text-4xl"
